@@ -20,10 +20,10 @@ export default function Post() {
       <h3 className={styles.bartitle}>Posts</h3>
       <div className={styles.barFiltros}>
         <span>Filtros</span>
-        <button className={styles.botonUno}>Hoy</button>
-        <button className={styles.botonUno}>Más Vistos</button>
-        <button className={styles.botonUno}>Ofertas</button>
-        <button className={styles.botonUno}>Noticias</button>
+        <button className={styles.botonUno}>Today</button>
+        <button className={styles.botonUno}>Most viewed</button>
+        <button className={styles.botonUno}>Offer</button>
+        <button className={styles.botonUno}>News</button>
       </div>
       <div className={styles.listCard}>
       
