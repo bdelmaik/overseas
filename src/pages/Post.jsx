@@ -51,7 +51,7 @@ export default function Post() {
                       </div>
                     
                     <div className={styles.cont3}>
-                      <button className={styles.botonUno}>Ver Más</button>
+                      <button className={styles.botonUno}>More</button>
                     </div>
                     
 
