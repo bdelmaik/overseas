@@ -1,0 +1,99 @@
+
+.navBar{
+ 
+} 
+.navBar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        color: black;
+        background-color: white;
+        height: 60px;
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+        box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+-webkit-box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+}
+.navBar li {
+        float: left;
+        height: 60px;
+        display: flex;
+        align-items: center;
+       
+      }
+      
+      .navBar li a {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(47, 47, 47);
+        text-align: center;
+        padding: 0px 5px;
+        text-decoration: none;
+        height: 60px;
+        font-weight: 400;
+        max-width: 150px;
+        min-width: 70px;
+      }
+      
+      .navBar li a:hover:not(.active) {
+        
+        color: black;
+        box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+-webkit-box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+
+      }
+      
+      .navBar .active {
+        background-color: #04AA6D;
+      }
+.logo{
+  background-image: linear-gradient(to left, #669cff, #11215de0);
+}
+
+.barLink{
+
+}
+  .barLink ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+
+    box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+-webkit-box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 10px 19px -6px rgba(0,0,0,0.26);
+  }
+
+ .barLink li {
+    float: left;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+  }
+  .barLink li a {
+    display: block;
+    color: rgb(47, 47, 47);
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  .barLink li a:hover:not(.active) {
+    border-bottom: 2px solid gray;
+    color: dodgerblue;
+  }
+  
+  .barLink .active {
+    background-color: #04AA6D;
+  }

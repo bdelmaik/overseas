@@ -1,0 +1,104 @@
+.listCardP{
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fill, 600px);
+    height: 100px;
+}
+
+
+.postCardP{
+    display: grid;
+    
+    color: dodgerblue;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid rgb(210, 210, 210) ;
+    grid-template-areas: 1fr;
+    gap: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 19px 4px rgba(0,0,0,0.24);
+-webkit-box-shadow: 0px 10px 19px 4px rgba(0,0,0,0.24);
+-moz-box-shadow: 0px 10px 19px 4px rgba(0,0,0,0.24);
+padding: 10px;
+
+
+}.postCardP:hover{
+    border: 1px solid dodgerblue;
+}
+.containerP{
+
+    padding: 0px 30px 0 30px;
+    gap: 10px;
+}
+
+.postCardP img{
+    border-radius: 7px 7px 7px 7px;
+    background-color: beige;
+    object-fit: cover;
+    width: 320px;
+    /*max-width: 100%;*/
+    height: 220px;
+}.botonUnoP{
+    margin: 10px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+}.botonUnoP:hover{
+    background-color: rgb(42, 77, 140);
+    cursor: pointer;
+}.contenidosP{
+  position: relative;
+  width: fit-content;
+  width: -moz-fit-content;
+  display: grid;
+  grid-template-areas: 'a a a b b b'
+                       'a a a b b b'
+                       'a a a c c c';
+ gap: 10px;
+}.contenidosP > h1{
+    font-size: 1rem;
+    margin: 5px;
+    color: rgb(32, 32, 32);
+}
+.contenidosP > time{
+    margin: 2px;
+    font-size: 0.7rem;
+    color: dodgerblue;
+}
+.bartitleP{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}.cont1P h1{
+    grid-area: a;
+    font-size: 1rem;
+    margin: 5px;
+    color: rgb(32, 32, 32);
+    
+}
+.cont2P{
+    grid-area: b;
+    margin: 5px;
+    font-size: 0.7rem;
+    color: dodgerblue;
+    
+}
+.cont3P{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: c;
+    
+}.barFiltrosP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

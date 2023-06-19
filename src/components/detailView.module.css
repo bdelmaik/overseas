@@ -1,0 +1,21 @@
+.detail{
+    display: grid;
+    grid-template-areas: 'a a b'
+                         'a a b'
+                         'c c c';
+    width: 95%;
+
+    margin: 10px;
+    padding: 20px;
+    gap: 10px;
+}.detail img{
+
+    width: 500px;
+    height: auto;
+}.container1{
+    grid-area: b;
+}.container2{
+    grid-area: a;
+}.container3{
+    grid-area: c;
+}

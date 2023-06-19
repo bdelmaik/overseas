@@ -1,0 +1,23 @@
+.footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .footer div {
+        margin-right: 10px;
+      }
+      
+      .footer a {
+        color: #333;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+      
+      .footer input {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
